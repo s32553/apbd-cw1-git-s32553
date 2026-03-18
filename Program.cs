@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Witaj! Podaj liczby oddzielene przecinkami (feature conflict):");
+        Console.WriteLine("Witaj! Podaj liczby oddzielene przecinkami (main):");
         var input = Console.ReadLine();
         try
         {
