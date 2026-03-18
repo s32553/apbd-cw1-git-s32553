@@ -4,7 +4,11 @@ class Program
 {
     static void Main()
     {
+<<<<<<< HEAD
         Console.WriteLine("Wprowadź liczby oddzielone przecinkami (main)");
+=======
+        Console.WriteLine("Wprowadź liczby oddzielone spacją (feature-conflict2)");
+>>>>>>> feature-conflict2
         var input = Console.ReadLine();
         try
         {
