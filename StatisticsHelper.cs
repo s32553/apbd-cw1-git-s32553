@@ -27,6 +27,14 @@ namespace APBD_CW1
             if (v > max) max = v;
             return max;
         }
+        public static int CalculateMin(int[] values)
+        {
+            if (values.Length == 0) throw new ArgumentException("Brak danych");
+            int min = values[0];
+            foreach (var v in values)
+            if (v < min) min = v;
+            return min;
+        }
     }
 
 }ź
