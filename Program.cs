@@ -9,7 +9,7 @@ class Program
         try
         {
             var numbers = Array.ConvertAll(input.Split(' '), int.Parse);
-            Console.WriteLine("Wczytane liczby: " + string.Join(", ", numbers));
+            Console.WriteLine("Podane liczby: " + string.Join(", ", numbers));
 
             double average = APBD_CW1.StatisticsHelper.CalculateAverage(numbers);
             Console.WriteLine("Średnia wczytanych liczb: " + average);
