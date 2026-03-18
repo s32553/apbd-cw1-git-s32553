@@ -19,6 +19,14 @@ namespace APBD_CW1
             foreach (var v in values) sum += v;
             return sum / values.Length;
         }
+        public static int CalculateMax(int[] values)
+        {
+            if (values.Length == 0) throw new ArgumentException("Brak danych");
+            int max = values[0];
+            foreach (var v in values)
+            if (v > max) max = v;
+            return max;
+        }
     }
 
 }ź
