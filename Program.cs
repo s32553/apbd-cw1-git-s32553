@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Podaj liczby oddzielone spacją:");
+        Console.WriteLine("Witaj! Podaj liczby oddzielone spacją:");
         var input = Console.ReadLine();
         try
         {
