@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Witaj! Podaj liczby oddzielone spacją:");
+        Console.WriteLine("Witaj! Podaj liczby oddzielene przecinkami:");
         var input = Console.ReadLine();
         try
         {
